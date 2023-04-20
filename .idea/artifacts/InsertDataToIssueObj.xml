@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InsertDataToIssueObj">
+    <output-path>$PROJECT_DIR$/out/artifacts/InsertDataToIssueObj</output-path>
+    <root id="archive" name="InsertDataToIssueObj.jar">
+      <element id="module-output" name="CustomActions" />
+    </root>
+  </artifact>
+</component>
