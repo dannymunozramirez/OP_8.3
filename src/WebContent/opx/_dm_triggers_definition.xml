@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<trigger-definitions>
+
+    <!--    Trigger Configuration XML for Practice - April 17th 2023 -->
+    <grcTrigger name="Updating Description Field"
+                event="update.object" position="PRE">
+        <rule class="com.ibm.openpages.triggers.rule.UpdateDescriptionRule"/>
+
+        <eventHandler
+                class="com.ibm.openpages.triggers.handler.UpdateDescriptionHandler"/>
+    </grcTrigger>
+
+    <!--    Trigger Configuration XML for Practice - April 18th 2023 -->
+    <grcTrigger name="Creating New Object"
+                event="update.object" position="PRE">
+        <rule class="com.ibm.openpages.triggers.rule.CreateObjectRule"/>
+
+        <eventHandler
+                class="com.ibm.openpages.triggers.handler.CreateObjectHandler"/>
+    </grcTrigger>
+
+</trigger-definitions>
