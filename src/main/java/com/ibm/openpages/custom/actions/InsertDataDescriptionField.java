@@ -57,9 +57,11 @@ public class InsertDataDescriptionField extends AbstractCustomAction {
               defined in the workflow action
              */
             getPropertyValue("Test");
+
+
             // Logs
-            System.out.println("Setting Data to Description field ---------- Description ");
-            igrcObject.setDescription("TESTING DATA FOR CUSTOM ACTION - 13 AVRIL 2023");
+            System.out.println("Setting Data to Description field -- Description ");
+            igrcObject.setDescription("TESTING DATA FOR CUSTOM ACTION - AVRIL 2023");
 
         } catch (Exception e) {
 
